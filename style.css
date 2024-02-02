@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  overflow: hidden;
 }
 
 /* Menus e logo */
@@ -88,7 +87,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: auto;
+  overflow-x: hidden;
   scroll-snap-type: x mandatory;
 }
 
@@ -116,7 +115,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-x: auto;
+  overflow-x: hidden;
   scroll-snap-type: x mandatory;
 }
 
@@ -124,4 +123,5 @@ nav ul li a {
   width: 100%;
   max-height: 150px; /* Defina o valor desejado para limitar a altura */
   object-fit: contain;
+  overflow: hidden;
 }
